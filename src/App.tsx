@@ -1,14 +1,12 @@
-import FinancialCategory from "./components/financial-category/financial-category.component";
+import FinancialCategoriesList from "./components/financial-categories-list/financial-categories-list.component";
 
-function App() {
+export default function App() {
   return (
     <>
       <h1>Welcome, John Doe</h1>
       <>
-        <FinancialCategory />
+        <FinancialCategoriesList />
       </>
     </>
   );
 }
-
-export default App;

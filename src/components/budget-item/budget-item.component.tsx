@@ -37,7 +37,7 @@ export default function BudgetItem({
           <input
             id="actual"
             type="number"
-            value={projected}
+            value={actual}
             // user can not edit on page load
             readOnly={!editMode}
           />
