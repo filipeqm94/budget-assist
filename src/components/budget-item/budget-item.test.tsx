@@ -4,6 +4,7 @@ import BudgetItemInterface from "../../interfaces/budget-item.interface";
 
 describe("BudgetItem Component", () => {
   const budgetItemProps: BudgetItemInterface = {
+    id: 1,
     name: "Testing",
     projected: 123,
     actual: 321

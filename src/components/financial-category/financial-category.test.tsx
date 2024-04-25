@@ -7,6 +7,7 @@ describe("FinancialCategory Component", () => {
     name: "Testing",
     entries: [
       {
+        id: 1,
         name: "Test",
         projected: 123,
         actual: 312

@@ -1,24 +1,26 @@
-.budgetItemContainer{
-    width: 20%;
-}
-.budgetItemHeader {
+.budget-item-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    background-color: #070707;
-    color: #fff
+    background-color: black;
+    color: #fff;
+
+    padding: 0 10px;
 }
 
-.financeEntryContainer {
+.finance-entry-container {
     display: flex;
     align-items: end;
     transition: height 0.3s ease-in-out;
     overflow: hidden;
     height: 0%;
 
-    .financeEntryItem {
+    padding: 0 10px;
+
+    .finance-entry-item {
         border: 1px 0 solid black;
+
 
         label {
             display: block;
