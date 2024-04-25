@@ -30,9 +30,10 @@ If you are ready to contribute to the codebase, follow these steps:
    - Navigate to the directory on your computer that you cloned the repository to.
    - Type `git checkout -b your-new-branch-name`.
    - Keep your branch focused on addressing one issue or feature to keep branches clean and manageable.
-
+   
 4. **Make Your Changes**
    - Open the files in your preferred text editor and make your changes.
+   - For any logical changes in `.tsx` files, please ensure you write corresponding unit tests. We use Jest and React Testing Library for testing. All new logic must be accompanied by thorough tests to validate functionality.
    - Keep your changes succinct and focused. Add comments to your code where necessary.
 
 5. **Commit Your Changes**
