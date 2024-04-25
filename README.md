@@ -37,7 +37,7 @@ Budget Assist is organized into four main sections, each designed to capture and
 
 <details>
 <summary style="font-size:12px; cursor:pointer;">Click to view Savings Section</summary>
-<img src="./images/savings_view.png" alt="Savings section - Mockup view">
+<img src="./images/savings.png" alt="Savings section - Mockup view">
 </details>
 
 ### Expenses
