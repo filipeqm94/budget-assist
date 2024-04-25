@@ -1,7 +1,5 @@
 import FinancialCategory from "./components/financial-category/financial-category.component";
 
-import "./App.scss";
-
 function App() {
   return (
     <>
