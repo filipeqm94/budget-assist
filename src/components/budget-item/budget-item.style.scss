@@ -21,26 +21,24 @@
     .finance-entry-item {
         border: 1px 0 solid black;
 
-
         label {
             display: block;
-            border-bottom: 1px solid black;
             text-align: center;
-        }
 
-        input[type="number"] {
-            width: 100%;
-            text-align: right;
-            box-sizing: border-box;
-            padding: 3px;
-            border: 1px solid transparent;
-            outline: none;
-            
-            &:focus {
-                box-shadow: 2px 0 0 0 black,
-                            0 2px 0 0 black;
+            input[type="number"] {
+                width: 100%;
+                text-align: right;
+                box-sizing: border-box;
+                padding: 3px;
+                border: none;
+                border-top: 1px solid black;
+
+                &:focus{
+                    outline: none;
+                }
             }
         }
+
     
         /* For Firefox */
         input[type="number"]::-webkit-inner-spin-button,

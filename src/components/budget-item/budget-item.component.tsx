@@ -20,28 +20,34 @@ export default function BudgetItem(props: BudgetItemInterface) {
       </div>
       <div className="finance-entry-container">
         <div className="finance-entry-item">
-          <label htmlFor="projected">Projected</label>
-          <input
-            id="projected"
-            type="number"
-            value={projected}
-            // user can not edit on page load
-            readOnly={!editMode}
-          />
+          <label htmlFor="projected">
+            Projected
+            <input
+              id="projected"
+              type="number"
+              value={projected}
+              // user can not edit on page load
+              readOnly={!editMode}
+            />
+          </label>
         </div>
         <div className="finance-entry-item">
-          <label htmlFor="actual">Actual</label>
-          <input
-            id="actual"
-            type="number"
-            value={actual}
-            // user can not edit on page load
-            readOnly={!editMode}
-          />
+          <label htmlFor="actual">
+            Actual
+            <input
+              id="actual"
+              type="number"
+              value={actual}
+              // user can not edit on page load
+              readOnly={!editMode}
+            />
+          </label>
         </div>
         <div className="finance-entry-item">
-          <label htmlFor="difference">Difference</label>
-          <input id="difference" type="number" value={difference} readOnly />
+          <label htmlFor="difference">
+            Difference
+            <input id="difference" type="number" value={difference} readOnly />
+          </label>
         </div>
       </div>
       {editMode ? <div>Can edit</div> : null}
